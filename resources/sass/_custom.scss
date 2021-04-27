@@ -1,0 +1,75 @@
+//custom
+$enable-gradients: true;//for bg-gradient-primary type 
+$enable-shadows: true;
+
+$bg-color: #333;
+$font-color: #fff;
+$dark-overlay: rgba(0, 0, 0, 0.7);
+$icon-size:25px;
+
+
+.bg-custom-1 {
+    background-color: #85144b;
+  }
+  
+.bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  }
+
+body {
+  background: $bg-color;
+  color: $font-color;
+}
+
+.navbar{
+  border-bottom: 3px solid red;
+  opacity: 0.9;
+}
+
+#home-section{
+  background: gray;
+  min-height: 650px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  
+.dark-overlay {
+  background-color: $dark-overlay;
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  min-height: 650px;
+}
+
+.home-inner {
+  padding-top: 100px;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.fa{
+  color: red;
+  background: #fff;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: $icon-size;
+}
+
+}
+
+.dark-overlay2 {
+  background-color: $dark-overlay;
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  min-height: 650px;
+}
+
+.home-inner2 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
